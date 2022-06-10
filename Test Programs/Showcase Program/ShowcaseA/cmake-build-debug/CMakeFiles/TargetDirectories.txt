@@ -1,3 +1,0 @@
-C:/Users/benja/CLionProjects/ShowcaseA/cmake-build-debug/CMakeFiles/ShowcaseA.dir
-C:/Users/benja/CLionProjects/ShowcaseA/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/benja/CLionProjects/ShowcaseA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

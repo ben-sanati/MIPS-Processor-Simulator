@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\TestProgram2.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\TestProgram2.dir/objects.a @CMakeFiles\TestProgram2.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\TestProgram2.dir/objects.a -Wl,--no-whole-archive  -o TestProgram2.exe -Wl,--out-implib,libTestProgram2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TestProgram2.dir\linklibs.rsp

@@ -1,3 +1,0 @@
-C:/Users/benja/CLionProjects/Test1/cmake-build-debug/CMakeFiles/Test1.dir
-C:/Users/benja/CLionProjects/Test1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/benja/CLionProjects/Test1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
