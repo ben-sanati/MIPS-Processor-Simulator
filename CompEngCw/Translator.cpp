@@ -3,10 +3,10 @@
 Translator::Translator() {
     /*
      * Different example assembly programs include:
-     *      ShowcaseProgram.txt
-     *      TestProgram1.txt
-     *      TestProgram2.txt
-     *      TestProgram3.txt
+     *      ../ShowcaseProgram.txt
+     *      ../TestProgram1.txt
+     *      ../TestProgram2.txt
+     *      ../TestProgram3.txt
      * For information regarding the different example programs please see the GitHub repo
      */
 
