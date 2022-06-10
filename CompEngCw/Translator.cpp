@@ -1,11 +1,16 @@
 #include "Translator.h"
 
 Translator::Translator() {
-    //file location for showcase program: C:\Users\benja\CLionProjects\CompEngCw\ShowcaseProgram.txt
-    //file location for test program 1: C:\Users\benja\CLionProjects\CompEngCw\TestProgram1.txt
-    //file location for test program 2: C:\Users\benja\CLionProjects\CompEngCw\TestProgram2.txt
-    //file location for test program 3: C:\Users\benja\CLionProjects\CompEngCw\TestProgram3.txt
-    fstream txtFile(R"(C:\Users\benja\CLionProjects\CompEngCw\ShowcaseProgram.txt)", ios::in);  //file being read
+    /*
+     * Different example assembly programs include:
+     *      ShowcaseProgram.txt
+     *      TestProgram1.txt
+     *      TestProgram2.txt
+     *      TestProgram3.txt
+     * For information regarding the different example programs please see the GitHub repo
+     */
+
+    fstream txtFile("../ShowcaseProgram.txt", ios::in);  //file being read
 
     for(int i = 0; i < 1000; i++)
         immSign[i] = false;
