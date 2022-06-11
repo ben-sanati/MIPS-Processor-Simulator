@@ -13,7 +13,6 @@ Table of Contents
 ![CLion](https://img.shields.io/badge/CLion-black?style=for-the-badge&logo=clion&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Maintained](https://img.shields.io/badge/Maintained%3F-no-red.svg)
 
 ## Description
 
@@ -54,17 +53,19 @@ The job of each of the module classes is to filter inputs and carry out any oper
 
 ## Run
 
-1) Boot-up CLion
-2) Open the **CMakeLists.txt** file as a project
+It should be noted that this project is **not** maintained. 
+
+1. Boot-up CLion
+2. Open the **CMakeLists.txt** file as a project
 ```
 Open -> CompEngCw/CMakeLists.txt -> OK -> Open as Project
 ```
-2) Open the **CMakeCache.txt** file as a project
+2. Open the **CMakeCache.txt** file as a project
 ```
 File -> Open -> CompEngCw/cmake-build-debug/CMakeCache.txt -> OK -> Open as Project
 ```
-3) Select the assembly program file location you want to the simulator to use in line 13 of the **Translator.cpp** file
-4) Run the program
+3. Select the assembly program file location you want to the simulator to use in line 13 of the **Translator.cpp** file
+4. Run the program
 ```
 Method 1: Alt + Shift + F10, then press Enter on the CompEngCw config
 Method 2: Run -> Run... -> press Enter on the CompEngCw config
