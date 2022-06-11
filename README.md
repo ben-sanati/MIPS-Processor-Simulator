@@ -1,5 +1,3 @@
-# Computer Architecture CW - MIPS Processor Simulator 
-
 Table of Contents
 =================
 
@@ -8,6 +6,8 @@ Table of Contents
    * [Functionality](#functionality)
    * [Run](#run)
    * [Final Report](#final-report)
+
+# Computer Architecture CW - MIPS Processor Simulator 
 
 ## Description
 
