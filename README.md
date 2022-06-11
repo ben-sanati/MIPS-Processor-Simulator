@@ -16,7 +16,14 @@ Table of Contents
 
 ## Description
 
-This project is a computer engineering CW, set in second year of university. A MIPS single-instruction, multi-cycle processor simulator was created with a limited IS in C++ using the CLion IDE. It follows a straightforward IF/ID/EXE/WB/MEM cycle, which can be implemented using a state machine. The simulator interprets a limited set of MIPS assembly code which is read-in from a text file and translated using the **Translator** class in code. The limited MIPS IS must be chosen such that it can process a showcase program which multiplies every value from 1-99 by itself and stores it to the same register. As such, the implemented limited IS includes the following instructions:
+This project is a computer engineering CW, set in second year of university. A MIPS single-instruction, multi-cycle processor simulator was created with a limited IS in C++ using the CLion IDE. It follows a straightforward IF/ID/EXE/WB/MEM cycle, which can be implemented using a state machine. 
+
+<p align="center">
+  <img src="./img/Multi-Cycle_Processor.png" width="700"/>
+   <em><br />MIPS single-instruction, multi-cycle processor datapath</em>
+</p>
+
+The simulator interprets a limited set of MIPS assembly code which is read-in from a text file and translated using the **Translator** class in code. The limited MIPS IS must be chosen such that it can process a showcase program which multiplies every value from 1-99 by itself and stores it to the same register. As such, the implemented limited IS includes the following instructions:
 
 - `beq`
 - `add`
@@ -36,6 +43,11 @@ The system has an automated MIPS assembly to machine code translator. The menu o
 0. This selection will run through the program cycle by cycle. 
 1. This selection will run through the entire program and output the final values in the memory file and register file.
 2. This selection will take the user to the testing suite, which tests the simulator is functioning as intended and gives a simple run-down of the simulation info, including the total number of clock cycles executed, the number of clock cycle errors (ideally 0), and the total number of instructions executed (it should be noted that this running mode will not test the users assembly code)
+
+<p align="center">
+  <img src="./img/SimulatorMenu.png" width="700"/>
+   <em><br />Simulator menu</em>
+</p>
 
 The simulated processor consists of the following modules, each of which are implemented using their own class.
 
