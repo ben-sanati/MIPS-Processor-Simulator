@@ -85,4 +85,4 @@ Method 2: Run -> Run... -> press Enter on the CompEngCw config
 
 ## Final Report 
 
-The report for the coursework can be found [here](./Report.pdf).
+The report for the coursework, which includes a detailed explanation of the simulators functionality, can be found [here](./Report.pdf).
