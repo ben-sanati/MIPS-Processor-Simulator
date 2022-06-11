@@ -53,7 +53,7 @@ The job of each of the module classes is to filter inputs and carry out any oper
 
 ## Run
 
-It should be noted that this project is **not** maintained. 
+It should be noted that this project is **NOT** maintained. 
 
 1. Boot-up CLion
 2. Open the **CMakeLists.txt** file as a project
