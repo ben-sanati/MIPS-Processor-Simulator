@@ -45,7 +45,7 @@ The system has an automated MIPS assembly to machine code translator. The menu o
 2. This selection will take the user to the testing suite, which tests the simulator is functioning as intended and gives a simple run-down of the simulation info, including the total number of clock cycles executed, the number of clock cycle errors (ideally 0), and the total number of instructions executed (it should be noted that this running mode will not test the users assembly code)
 
 <p align="center">
-  <img src="./img/SimulatorMenu.png" width="700"/>
+  <img src="./img/SimulatorMenu.png" width="300"/>
    <em><br />Simulator menu</em>
 </p>
 
