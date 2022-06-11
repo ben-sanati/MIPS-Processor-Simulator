@@ -1,5 +1,14 @@
 # Computer Architecture CW - MIPS Processor Simulator 
 
+Table of Contents
+=================
+
+* [Computer Architecture CW - MIPS Processor Simulator](#computer-architecture-cw---mips-processor-simulator)
+   * [Description](#description)
+   * [Functionality](#functionality)
+   * [Run](#run)
+   * [Final Report](#final-report)
+
 ## Description
 
 This project is a computer engineering CW, set in second year of university. A MIPS single-instruction, multi-cycle processor simulator was created with a limited IS in C++ using the CLion IDE. It follows a straightforward IF/ID/EXE/WB/MEM cycle, which can be implemented using a state machine. The simulator interprets a limited set of MIPS assembly code which is read-in from a text file and translated using the **Translator** class in code. The limited MIPS IS must be chosen such that it can process a showcase program which multiplies every value from 1-99 by itself and stores it to the same register. As such, the implemented limited IS includes the following instructions:
